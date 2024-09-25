@@ -44,7 +44,7 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 36) {
     clearInterval(this.loop);
-    alert(`Olá, ${spanPlayer.innerHTML}! quer namorar comigo? ${timer.innerHTML}`);
+    alert(`Aceita namorar comigo?`);
   }
 }
 
